@@ -1,4 +1,4 @@
-# Nuxt Minimal Starter
+# Nuxt Minimal Starter Template With Tailwind CSS and Shadcn-vue
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -9,15 +9,6 @@ Make sure to install dependencies:
 ```bash
 # npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
@@ -27,15 +18,6 @@ Start the development server on `http://localhost:3000`:
 ```bash
 # npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
 ## Production
@@ -45,15 +27,6 @@ Build the application for production:
 ```bash
 # npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
@@ -61,15 +34,38 @@ Locally preview production build:
 ```bash
 # npm
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Format Code
+
+Format your code:
+
+```bash
+# npm
+npm run format
+```
+
+Fix problems:
+
+```bash
+# npm
+npx eslint . --fix
+```
+
+## Shadcn-vue Components
+
+This template includes the [Shadcn-vue](https://www.shadcn-vue.com/) components library. You can use the components in your project.
+
+To add a component, run the following command, for example, to add a button component:
+
+```bash
+# npm
+npx shadcn-vue@latest add button
+```
+
+Then, import the component in your `.vue` file.
+
+
+## Tailwind CSS
+
+This template includes [Tailwind CSS](https://tailwindcss.com/). You can use the utility classes in your project.
